@@ -18,6 +18,7 @@ body {
     padding: 20px;
     text-align: center;
     width: 250px;
+    border: #5a5a5a solid 1px;
 }
 
 .product-img {
@@ -53,8 +54,16 @@ p {
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.4);
 }
 
 .buy-btn:hover {
     background-color: #ff3f31;
+}
+
+h3{
+    font-size: 15px;
+    color: #535353;
+    margin-top: 25px;
+    font-weight: 700;
 }
